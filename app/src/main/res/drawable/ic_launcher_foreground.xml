@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Group centered strictly within 66dp safe zone (21 to 87) -->
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Safety Shield (Gold) -->
+        <path
+            android:fillColor="#FFB703"
+            android:pathData="M54,22 L68,27 C68,41 59,50 54,54 C49,50 40,41 40,27 Z" />
+        <!-- Inner checkmark on shield -->
+        <path
+            android:fillColor="#0D2137"
+            android:pathData="M52,38 L47,33 L49,31 L52,34 L59,27 L61,29 Z" />
+
+        <!-- Oil Tanker Body (Silver/White with Petrol Blue Stripe) -->
+        <!-- Cylindrical Tank -->
+        <path
+            android:fillColor="#F0F4F8"
+            android:pathData="M27,51 L60,51 C63,51 65,54 65,58 L65,67 C65,71 63,74 60,74 L27,74 C24,74 22,71 22,67 L22,58 C22,54 24,51 27,51 Z" />
+        <!-- Tank stripe -->
+        <path
+            android:fillColor="#FB8500"
+            android:pathData="M22,60 L65,60 L65,64 L22,64 Z" />
+        <!-- Tank dome/hatch -->
+        <path
+            android:fillColor="#D9E2EC"
+            android:pathData="M38,48 L48,48 C49,48 50,49 50,51 L36,51 C36,49 37,48 38,48 Z" />
+
+        <!-- Truck Cabin (Front) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M65,55 L75,55 C77,55 79,57 81,61 L84,67 C85,69 85,71 85,74 L65,74 Z" />
+        <!-- Cabin Window -->
+        <path
+            android:fillColor="#1B3B6F"
+            android:pathData="M68,57 L75,57 L78,63 L68,63 Z" />
+        <!-- Bumper -->
+        <path
+            android:fillColor="#9FB3C8"
+            android:pathData="M83,72 L86,72 C86.5,72 87,72.5 87,73 L87,75 L83,75 Z" />
+
+        <!-- Wheels (Dark Grey with rims) -->
+        <!-- Rear trailer wheels -->
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M30,74m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M30,74m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M43,74m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M43,74m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+        <!-- Drive wheels -->
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M62,74m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M62,74m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+        <!-- Front wheel -->
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M78,74m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M78,74m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+        <!-- Ground line -->
+        <path
+            android:fillColor="#334155"
+            android:pathData="M20,80 L88,80 C88.5,80 89,80.5 89,81 L89,81.5 C89,82 88.5,82.5 88,82.5 L20,82.5 C19.5,82.5 19,82 19,81.5 L19,81 C19,80.5 19.5,80 20,80 Z" />
+    </group>
+</vector>

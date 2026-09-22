@@ -1,0 +1,6 @@
+{
+  "name": "ทองอยู่ ฟลีท",
+  "description": "ระบบปฏิบัติงานคนขับรถบรรทุกน้ำมันและช่าง บริษัททองอยู่ (Thongyoo Fleet Operations)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
